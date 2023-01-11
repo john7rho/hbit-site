@@ -4,6 +4,7 @@ import Typography from '@mui/material/Typography';
 import Divider from '@mui/material/Divider';
 import useMediaQuery from '@mui/material/useMediaQuery';
 import { alpha, createTheme } from '@mui/material/styles';
+import BackBay from '../../../../assets/backbay.jpeg';
 
 import Container from 'components/Container';
 
@@ -65,9 +66,7 @@ const Hero = () => {
         <Box
           component={'img'}
           loading="lazy"
-          src={
-            'https://upload.wikimedia.org/wikipedia/commons/f/fb/Back_Bay_and_Charles_River%2C_Boston%2C_MA.jpg'
-          }
+          src={BackBay}
           height={{ xs: 'auto', md: 1 }}
           maxHeight={{ xs: 300, md: 1 }}
           width={1}

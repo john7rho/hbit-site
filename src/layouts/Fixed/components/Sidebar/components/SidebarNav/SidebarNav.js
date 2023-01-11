@@ -79,7 +79,7 @@ const SidebarNav = ({ pages, onClose }) => {
           target="blank"
           href="https://mui.com/store/items/the-front-landing-page/"
         >
-          Purchase now
+          Contact Us
         </Button>
       </Box>
     </Box>
