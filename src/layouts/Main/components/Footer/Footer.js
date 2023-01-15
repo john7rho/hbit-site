@@ -36,6 +36,18 @@ const Footer = () => {
                 Contact Us
               </Button>
             </Box>
+            <Box marginTop={1} marginLeft={1}>
+              <Button
+                color="primary"
+                variant="outlined"
+                component="a"
+                target="blank"
+                href="https://forms.gle/QFdodYrU4MU5SAjk9"
+                size="small"
+              >
+                Join Mailing List
+              </Button>
+            </Box>
           </Box>
         </Box>
       </Grid>

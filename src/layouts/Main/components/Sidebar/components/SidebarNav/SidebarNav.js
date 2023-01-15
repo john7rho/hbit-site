@@ -35,6 +35,19 @@ const SidebarNav = () => {
             Contact Us
           </Button>
         </Box>
+        <Box marginTop={1}>
+          <Button
+            size={'large'}
+            variant="contained"
+            color="primary"
+            fullWidth
+            component="a"
+            target="blank"
+            href="https://forms.gle/QFdodYrU4MU5SAjk9"
+          >
+            Join Mailing List
+          </Button>
+        </Box>
       </Box>
     </Box>
   );
