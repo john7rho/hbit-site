@@ -43,7 +43,7 @@ const About = () => {
                     variant="h4"
                     sx={{ fontWeight: 700, color: 'common.white' }}
                   >
-                    Boiling down biotech to its fundamentals.
+                    Boiling down biotech and healthcare to their fundamentals.
                   </Typography>
                 </Box>
                 <Typography
