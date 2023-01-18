@@ -51,9 +51,9 @@ const About = () => {
                   component="p"
                   sx={{ color: 'common.white' }}
                 >
-                  Biotechnology companies tend to be blackboxes for student
-                  investors, due to scientific complexity, long development
-                  timelines, and regulatory complexity.
+                  Biotechnology and healthcare companies tend to be blackboxes
+                  for student investors, due to scientific complexity, long
+                  development timelines, and regulatory complexity.
                   <br />
                   HBIT aims to leverage fundamental and technical analysis to
                   provide a more transparent view of the biotech industry.

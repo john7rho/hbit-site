@@ -46,7 +46,7 @@ const Hero = () => {
       <Box marginBottom={3}>
         <Typography variant="h6" component="p" color="text.secondary">
           Exploring innovation, entrepreneurship, and growth opportunities
-          within Boston's biotech hub.
+          within Boston's medical hub.
         </Typography>
       </Box>
     </Box>
