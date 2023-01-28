@@ -24,7 +24,7 @@ const Topbar = ({ onSidebarOpen }) => {
         <Box
           component={'img'}
           src={
-            'https://drive.google.com/uc?export=view&id=10mrKCiLFx3AwEO9emkP3UV8OAJqCeD7q'
+            'https://drive.google.com/uc?export=view&id=1qFh4m2GVcvn4VQE0nVJaO7bdQpgHWYU4'
           }
           height={1}
           width={1}

@@ -58,7 +58,7 @@ const Footer = () => {
           color="text.secondary"
           gutterBottom
         >
-          &copy; Harvard Biotech Investment Team. 2023. All rights reserved.
+          &copy; Harvard Bio Investment Team. 2023. All rights reserved.
         </Typography>
         <Typography
           align={'center'}
