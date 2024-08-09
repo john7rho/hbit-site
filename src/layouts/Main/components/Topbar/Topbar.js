@@ -5,6 +5,7 @@ import Button from '@mui/material/Button';
 import { alpha } from '@mui/material/styles';
 import MenuIcon from '@mui/icons-material/Menu';
 import Link from '@mui/material/Link';
+import hubitLogo from '../../../../assets/hubit_logo.png';
 
 const Topbar = ({ onSidebarOpen }) => {
   return (
@@ -21,14 +22,7 @@ const Topbar = ({ onSidebarOpen }) => {
         title="theFront"
         width={{ xs: 150, md: 200 }}
       >
-        <Box
-          component={'img'}
-          src={
-            'https://drive.google.com/uc?export=view&id=1qFh4m2GVcvn4VQE0nVJaO7bdQpgHWYU4'
-          }
-          height={1}
-          width={1}
-        ></Box>
+        <Box component={'img'} src={hubitLogo} height={1} width={1}></Box>
       </Box>
       <Box sx={{ display: { xs: 'none', md: 'flex' } }} alignItems={'center'}>
         <Box>

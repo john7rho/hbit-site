@@ -58,7 +58,7 @@ const Footer = () => {
           color="text.secondary"
           gutterBottom
         >
-          &copy; Harvard Undergraduate Bio Investment Team. 2023. All rights
+          &copy; Harvard Undergraduate Bio Investment Team. 2024. All rights
           reserved.
         </Typography>
         <Typography
