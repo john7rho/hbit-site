@@ -5,12 +5,13 @@
   "version": "4.8.0",
   "private": true,
   "scripts": {
-    "start": "react-scripts start",
+    "start": "serve -s build",
     "build": "react-scripts build",
     "prettier:fix": "prettier './src/**/*.js' --write",
     "eslint:fix": "eslint ./src --fix",
     "codeStyle:fix": "npm run prettier:fix && npm run eslint:fix",
-    "clear-all": "rimraf ./build ./node_modules"
+    "clear-all": "rimraf ./build ./node_modules",
+    "postinstall": "npm run build"
   },
   "eslintConfig": {
     "extends": [
@@ -50,6 +51,7 @@
     "react-slick": "^0.29.0",
     "react-syntax-highlighter": "^15.5.0",
     "react-visibility-sensor": "^5.1.1",
+    "serve": "^14.2.3",
     "slick-carousel": "^1.8.1",
     "web-vitals": "^3.0.2",
     "yup": "^0.32.11"
