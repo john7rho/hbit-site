@@ -55,7 +55,7 @@ const About = () => {
                   for student investors, due to scientific complexity, long
                   development timelines, and regulatory complexity.
                   <br />
-                  HBIT aims to leverage fundamental and technical analysis to
+                  HUBIT aims to leverage fundamental and technical analysis to
                   provide a more transparent view of the biotech industry.
                 </Typography>
               </Box>

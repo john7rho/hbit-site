@@ -5,14 +5,14 @@
   "version": "4.8.0",
   "private": true,
   "scripts": {
-    "start": "serve -s build",
+    "start": "react-scripts start",
     "build": "react-scripts build",
-    "postinstall": "npm run build",
     "prettier:fix": "prettier './src/**/*.js' --write",
     "eslint:fix": "eslint ./src --fix",
     "codeStyle:fix": "npm run prettier:fix && npm run eslint:fix",
     "clear-all": "rimraf ./build ./node_modules"
-  },
+  }
+  ,
   "eslintConfig": {
     "extends": [
       "react-app"
